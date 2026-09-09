@@ -1,0 +1,14 @@
+[binaries]
+c = 'riscv32-none-elf-gcc'
+ar = 'riscv32-none-elf-ar'
+strip = 'riscv32-none-elf-strip'
+
+[properties]
+c_args = ['-march=rv32i', '-mabi=ilp32']
+link_args = ['-march=rv32i', '-mabi=ilp32']
+
+[host_machine]
+system = 'embedded'
+cpu_family = 'riscv'
+cpu = 'riscv32'
+endian = 'little'
