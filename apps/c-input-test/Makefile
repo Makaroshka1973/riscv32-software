@@ -11,7 +11,7 @@ all: $(RAW_BLOCKS)
 
 # Compile using custom linker script and custom stubs
 $(ELF):
-	$(CC) -march=rv32i -mabi=ilp32 -Os -nostartfiles -T ../../sys/linker.ld ../../sys/crt0.s main.c ../../sys/stubs.c -o $@
+	$(CC) -march=rv32i_zicsr -mabi=ilp32 -Os -nostartfiles -T ../../sys/linker.ld ../../sys/crt0.s main.c ../../sys/stubs.c -o $@
 
 $(BIN): $(ELF)
 	$(OBJCOPY) -O binary $< $@

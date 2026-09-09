@@ -5,7 +5,7 @@ SYSDIR = ../../sys
 LINKER_SCRIPT = $(SYSDIR)/linker.ld
 CRT = $(SYSDIR)/crt0.s
 
-CFLAGS = -march=rv32i -mabi=ilp32 -nostartfiles -nostdlib
+CFLAGS = -march=rv32i_zicsr -mabi=ilp32 -nostartfiles -nostdlib
 LDFLAGS = -T $(LINKER_SCRIPT)
 
 TARGET = benchmark
