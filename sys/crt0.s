@@ -22,7 +22,7 @@ bss_clear_loop:
 
 bss_clear_done:
     # Jump to entry point
-    jal main
+    call main
 
 # Infinite loop if main returns
 end_loop:
