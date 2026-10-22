@@ -1,0 +1,197 @@
+[
+  {
+    "file": "../../sys/crt0.s",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "../../sys/crt0.s",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "drivers/keyboard/keyboard_driver.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "drivers/keyboard/keyboard_driver.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "drivers/mtime/mtime_driver.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "drivers/mtime/mtime_driver.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "drivers/uart/uart_driver.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "drivers/uart/uart_driver.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "funcs.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "funcs.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "libc/syscalls.s",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "libc/syscalls.s",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "libc/stubs.s",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "libc/stubs.s",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "blocking.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "blocking.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "scheduler.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "scheduler.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "idle.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "idle.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "idle_process.s",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "idle_process.s",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "init.c",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "init.c",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  },
+  {
+    "file": "main.s",
+    "arguments": [
+      "/nix/store/zcljmf5v37p53hcfh6mkfhqyp09x0cc7-riscv32-none-elf-gcc-wrapper-16.2.0/bin/riscv32-none-elf-gcc",
+      "-march=rv32i_zicsr",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-I.",
+      "main.s",
+      "-o",
+      "kernel.out"
+    ],
+    "directory": "/home/makaroshka1973/projects/riscv-sw/apps/kernel",
+    "output": "kernel.out"
+  }
+]
