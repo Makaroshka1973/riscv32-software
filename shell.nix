@@ -10,6 +10,10 @@ with import <nixpkgs> {
 };
 mkShell {
   nativeBuildInputs = [
-    buildPackages.meson buildPackages.ninja buildPackages.pkg-config
+    buildPackages.meson
+    buildPackages.ninja
+    buildPackages.pkg-config
+    buildPackages.clang-tools
+    buildPackages.bear
   ];
 }
